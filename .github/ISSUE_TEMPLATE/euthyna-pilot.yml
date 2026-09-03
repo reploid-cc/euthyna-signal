@@ -1,0 +1,65 @@
+name: Euthyna pilot opt-in
+description: Submit one structured public opt-in for the Euthyna continuity and authority pilot.
+title: "[Euthyna pilot opt-in]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This intake repository is public. Submitted issues and every answer are public.
+
+        Do not include project names, secrets, credentials, private code, or sensitive operational details.
+
+        Submit this form once. A complete submitted issue is the only signal counted for this pilot; free-form replies in the OMP GitHub Discussion count as zero. Submissions are deduplicated by normalized GitHub identity.
+
+  - type: dropdown
+    id: current_orca_use
+    attributes:
+      label: Current Orca use
+      description: Do you currently use Orca?
+      options:
+        - Yes — I currently use Orca.
+        - No — I do not currently use Orca.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: omp_use_or_install_commitment
+    attributes:
+      label: Current OMP use or installation commitment
+      description: Select the one statement that applies to you.
+      options:
+        - I currently use oh-my-pi (OMP).
+        - I do not currently use OMP, but I can and will install OMP for the pilot.
+        - I neither use OMP nor commit to installing it for the pilot.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: weekly_continuity_or_authority_pain
+    attributes:
+      label: Weekly continuity or authority pain
+      description: Does continuity or authority confusion occur in your Orca work at least weekly?
+      options:
+        - Yes — it occurs at least weekly.
+        - No — it occurs less often than weekly or not at all.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: pilot_follow_up_consent
+    attributes:
+      label: Pilot follow-up consent
+      options:
+        - label: I consent to Euthyna pilot follow-up through my public GitHub identity.
+          required: true
+
+  - type: dropdown
+    id: pilot_session_commitment
+    attributes:
+      label: Time-bounded pilot commitment
+      description: Will you commit to scheduling one 30-minute pilot session within the 14 calendar days after the 7-day signal window closes?
+      options:
+        - Yes — I make this time-bounded pilot commitment.
+        - No — I do not make this time-bounded pilot commitment.
+    validations:
+      required: true
