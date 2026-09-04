@@ -1,14 +1,18 @@
-# Euthyna Signal Intake — Invalidated Pre-Build Run
+# Euthyna Signal Intake — Invalidated Run
 
-This repository is retained as a public audit record. The signal was launched before Euthyna was built, so the run is **invalidated and not evaluated**.
+This repository is retained as a public audit record. The run is **invalidated and not evaluated** for two independent reasons:
+
+1. It was launched before Euthyna was built, so it could not measure post-build effectiveness.
+2. Its external “first 10 users” and 5/3/3 cohort premise was unsupported template carry-over. The project owner/operator is the only validated user; no external respondent, cohort, buyer, demand, or threshold was established.
 
 - Do not submit to this run.
 - Repository Issues are disabled.
 - At invalidation time (`2026-09-03T23:57:50Z`), the intake repository had **0 issues** and the linked OMP Discussion had **0 replies**.
-- No response associated with this run will be counted as GO or KILL evidence.
-- A fresh 7-day effectiveness signal may be planned only after the built project is ready for validation.
+- Those zero observations are shutdown evidence only, not a completed signal result.
+- No plan, form, threshold, response, or observation associated with this run has persona, demand, GO/KILL, future-threshold, or planning authority.
+- A fresh post-build 7-day effectiveness signal may measure only the owner/operator's actual use across their own repositories unless separate external-user evidence and authority are later supplied. No repository count or replacement threshold is asserted here.
 
-The original published files and commit remain available for audit. They must not be reused as a live intake surface.
+The original published files and commit remain available for audit. They must not be published, re-enabled, copied, adapted, or reused as a live intake surface.
 
 ## Frozen audit references
 
